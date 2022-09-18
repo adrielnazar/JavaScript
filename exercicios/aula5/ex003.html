@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(103, 103, 190);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(182, 182, 61);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: ')) //Number.parseFloat, Number.parseInt ou Number
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // String(n) ou n.toString()
+
+        /* 'O aluno ' + nome + ' com ' + idade + ' anos tirou a nota ' + nota
+        'O aluno Adriel com 18 anos tirou a nota 5.5'
+        > `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+        'O aluno Adriel com 18 anos tirou a nota 5.5'
+*/
+    </script>
+</body>
+</html>
